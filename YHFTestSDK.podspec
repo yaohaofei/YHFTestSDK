@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint LixFoundation.podspec' to ensure this is a
+#  Be sure to run `pod spec lint YHFTestSDK.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "LixFoundation"
+  spec.name         = "YHFTestSDK"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of LixFoundation."
+  spec.summary      = "Objective-C编程基础工具类."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/LixFoundation"
+  spec.homepage     = "https://github.com/yaohaofei/YHFTestSDK"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/LixFoundation.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/yaohaofei/YHFTestSDK.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
