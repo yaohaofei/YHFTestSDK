@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		45A38D9A25F1D22E002778E2 /* YHFTestSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 45A38D9825F1D22E002778E2 /* YHFTestSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45A38DA525F1DC06002778E2 /* MyView.h in Headers */ = {isa = PBXBuildFile; fileRef = 45A38DA325F1DC06002778E2 /* MyView.h */; };
+		45A38DA625F1DC06002778E2 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A38DA425F1DC06002778E2 /* MyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		45A38D9525F1D22E002778E2 /* YHFTestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YHFTestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45A38D9825F1D22E002778E2 /* YHFTestSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHFTestSDK.h; sourceTree = "<group>"; };
 		45A38D9925F1D22E002778E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45A38DA325F1DC06002778E2 /* MyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		45A38DA425F1DC06002778E2 /* MyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				45A38D9825F1D22E002778E2 /* YHFTestSDK.h */,
 				45A38D9925F1D22E002778E2 /* Info.plist */,
+				45A38DA325F1DC06002778E2 /* MyView.h */,
+				45A38DA425F1DC06002778E2 /* MyView.m */,
 			);
 			path = YHFTestSDK;
 			sourceTree = "<group>";
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45A38D9A25F1D22E002778E2 /* YHFTestSDK.h in Headers */,
+				45A38DA525F1DC06002778E2 /* MyView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45A38DA625F1DC06002778E2 /* MyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
