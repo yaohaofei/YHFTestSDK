@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4543DBD825F860D6009C84FE /* MyTets.h in Headers */ = {isa = PBXBuildFile; fileRef = 4543DBD625F860D6009C84FE /* MyTets.h */; };
+		4543DBD925F860D6009C84FE /* MyTets.m in Sources */ = {isa = PBXBuildFile; fileRef = 4543DBD725F860D6009C84FE /* MyTets.m */; };
 		45A38D9A25F1D22E002778E2 /* YHFTestSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 45A38D9825F1D22E002778E2 /* YHFTestSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45A38DA525F1DC06002778E2 /* MyView.h in Headers */ = {isa = PBXBuildFile; fileRef = 45A38DA325F1DC06002778E2 /* MyView.h */; };
-		45A38DA625F1DC06002778E2 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A38DA425F1DC06002778E2 /* MyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4543DBCC25F85D81009C84FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4543DBD625F860D6009C84FE /* MyTets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTets.h; sourceTree = "<group>"; };
+		4543DBD725F860D6009C84FE /* MyTets.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTets.m; sourceTree = "<group>"; };
 		45A38D9525F1D22E002778E2 /* YHFTestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YHFTestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45A38D9825F1D22E002778E2 /* YHFTestSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHFTestSDK.h; sourceTree = "<group>"; };
 		45A38D9925F1D22E002778E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45A38DA325F1DC06002778E2 /* MyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
-		45A38DA425F1DC06002778E2 /* MyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,11 +32,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4543DBCB25F85D81009C84FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4543DBCC25F85D81009C84FE /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		45A38D8B25F1D22E002778E2 = {
 			isa = PBXGroup;
 			children = (
 				45A38D9725F1D22E002778E2 /* YHFTestSDK */,
 				45A38D9625F1D22E002778E2 /* Products */,
+				4543DBCB25F85D81009C84FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +62,8 @@
 			children = (
 				45A38D9825F1D22E002778E2 /* YHFTestSDK.h */,
 				45A38D9925F1D22E002778E2 /* Info.plist */,
-				45A38DA325F1DC06002778E2 /* MyView.h */,
-				45A38DA425F1DC06002778E2 /* MyView.m */,
+				4543DBD625F860D6009C84FE /* MyTets.h */,
+				4543DBD725F860D6009C84FE /* MyTets.m */,
 			);
 			path = YHFTestSDK;
 			sourceTree = "<group>";
@@ -65,8 +75,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4543DBD825F860D6009C84FE /* MyTets.h in Headers */,
 				45A38D9A25F1D22E002778E2 /* YHFTestSDK.h in Headers */,
-				45A38DA525F1DC06002778E2 /* MyView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45A38DA625F1DC06002778E2 /* MyView.m in Sources */,
+				4543DBD925F860D6009C84FE /* MyTets.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +275,7 @@
 		45A38D9E25F1D22E002778E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = W759EW52UV;
@@ -282,13 +293,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		45A38D9F25F1D22E002778E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = W759EW52UV;
@@ -306,7 +318,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
