@@ -9,4 +9,8 @@
 
 @implementation MyView
 
+-(void)testMyView{
+    self.backgroundColor = [UIColor redColor];
+    self.layer.cornerRadius = 10;
+}
 @end

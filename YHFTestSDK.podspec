@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                        Objective-C编程基础工具类,dasuiodoiasdoiajjkasdjakj kjsajdkkajsdjk jksdjkkjsdjkasjkdja jasjdjadjjdjjjdjdak 
+                        Objective-C编程基础工具类,dasuiodoiasdoiajjkasdjakj kjsajdkkajsdjk jksdjkkjsdjkasjkdja jasjdjadjjdjjjdjdak
                    DESC
 
   spec.homepage     = "https://github.com/yaohaofei/YHFTestSDK"
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "YHFTestSDK", "YHFTestSDK/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
