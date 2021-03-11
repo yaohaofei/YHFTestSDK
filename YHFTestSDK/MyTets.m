@@ -8,5 +8,7 @@
 #import "MyTets.h"
 
 @implementation MyTets
-
++(void)showLog{
+    NSLog(@"董二你就是个傻逼");
+}
 @end

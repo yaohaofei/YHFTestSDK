@@ -14,5 +14,5 @@ FOUNDATION_EXPORT double YHFTestSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char YHFTestSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <YHFTestSDK/PublicHeader.h>
-
+#import <YHFTestSDK/MyTets.h>
 

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4543DBD825F860D6009C84FE /* MyTets.h in Headers */ = {isa = PBXBuildFile; fileRef = 4543DBD625F860D6009C84FE /* MyTets.h */; };
+		4543DBD825F860D6009C84FE /* MyTets.h in Headers */ = {isa = PBXBuildFile; fileRef = 4543DBD625F860D6009C84FE /* MyTets.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4543DBD925F860D6009C84FE /* MyTets.m in Sources */ = {isa = PBXBuildFile; fileRef = 4543DBD725F860D6009C84FE /* MyTets.m */; };
 		45A38D9A25F1D22E002778E2 /* YHFTestSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 45A38D9825F1D22E002778E2 /* YHFTestSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
