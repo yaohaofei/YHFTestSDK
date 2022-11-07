@@ -94,7 +94,7 @@ Pod::Spec.new do |spec|
   #spec.source_files  = "YHFTestSDK", "YHFTestSDK/*.{h}"
   spec.exclude_files = "Classes/Exclude"
   spec.static_framework = true # 是否是静态库
-  spec.vendored_frameworks = ['XXXXX.framework']
+  spec.vendored_frameworks = ['YHFTestSDK.framework']
   # spec.public_header_files = "Classes/**/*.h"
 
 
