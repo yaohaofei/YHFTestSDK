@@ -134,10 +134,10 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # 依赖第三方库
-    spec.dependency "GDTMobSDK"
-    spec.dependency "Ads-CN", "~>  4.6.0.7"
-    spec.dependency "SigmobAd-iOS"
-    spec.dependency "BaiduMobAdSDK"
-    spec.dependency "AliyunLogProducer"
+    #  spec.dependency "GDTMobSDK"
+    #  spec.dependency "Ads-CN", "~>  4.6.0.7"
+    #  spec.dependency "SigmobAd-iOS"
+     # spec.dependency "BaiduMobAdSDK"
+     # spec.dependency "AliyunLogProducer"
 
 end
