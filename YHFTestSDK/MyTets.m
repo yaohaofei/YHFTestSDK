@@ -9,6 +9,6 @@
 
 @implementation MyTets
 +(void)showLog{
-    NSLog(@"董二你就是个da傻逼");
+    NSLog(@"董二你就是个da傻逼1");
 }
 @end
