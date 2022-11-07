@@ -91,9 +91,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "YHFTestSDK", "YHFTestSDK/*.{h}"
+  #spec.source_files  = "YHFTestSDK", "YHFTestSDK/*.{h}"
   spec.exclude_files = "Classes/Exclude"
-
+  spec.static_framework = true # 是否是静态库
+  spec.vendored_frameworks = ['XXXXX.framework']
   # spec.public_header_files = "Classes/**/*.h"
 
 
