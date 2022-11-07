@@ -1,0 +1,6 @@
+framework module YHFTestSDK {
+  umbrella header "YHFTestSDK.h"
+
+  export *
+  module * { export * }
+}
